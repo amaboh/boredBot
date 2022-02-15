@@ -1,0 +1,45 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #B6B6B6;
+}
+
+.container{
+    text-align: center;
+}
+.container p{
+    font-size: 1.25rem;
+}
+
+#start-btn{
+    background: red;
+    border-radius: 50%;
+    border: 2px solid rgb(150, 31, 31);
+    padding: 3rem;
+    margin: 3rem;
+}
+
+#start-btn:hover,
+#start-btn:focus{
+    background: #F77F7F;
+    border: 2px solid #e27777;
+}
+
+.rainbow{
+    color: white;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(
+  0deg,
+  hsl(240deg 38% 51%) 0%,
+  hsl(207deg 100% 43%) 10%,
+  hsl(200deg 100% 46%) 20%,
+  hsl(189deg 100% 43%) 30%,
+  hsl(172deg 100% 41%) 40%,
+  hsl(152deg 82% 50%) 50%,
+  hsl(92deg 60% 57%) 60%,
+  hsl(58deg 60% 47%) 70%,
+  hsl(37deg 77% 56%) 80%,
+  hsl(20deg 94% 65%) 90%,
+  hsl(0deg 96% 73%) 100%
+);
+}
